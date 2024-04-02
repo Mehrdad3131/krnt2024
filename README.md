@@ -1,4 +1,4 @@
 Quickstart install:
-npm install
+npm install -
 run: 
 nodemon index.js
