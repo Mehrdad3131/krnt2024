@@ -1,0 +1,66 @@
+.Logo{
+    background: #FAFAFA;
+    position: relative;
+    display: flex;
+    top: 40px;
+    z-index: 9;
+    width: 15%;
+    height: 0px;
+    left: 0px;
+
+  }
+  
+  .feature-Container{
+    position:relative;
+    width: 100%;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items:center;
+  }
+  
+  .triangle, .triangle-cover{
+    position:absolute;
+    left:-20%;
+    top:5%;
+  }
+  
+  .triangle{
+    z-index:-1;
+  }
+  
+  .triangle-cover{
+    z-index:2;
+  }
+  
+  .image-border {
+    width: 75%;
+    z-index: 1;
+    display:flex;
+    background:#ffffff;
+    padding: 3%;
+    border-radius: 7px;
+    box-shadow: 1px 1px 6px #00000034;
+  }
+  
+  .image {
+    width: 100%;
+  }
+  
+  
+  
+  
+  
+  
+  .spacer{
+    height: 50px;
+  }
+  
+  .outer-section{
+    max-width: 600px;
+  }
+  
+  *{
+    box-sizing: border-box;
+  /*   border: 1px solid red; */
+  }
